@@ -1,6 +1,6 @@
 {
-  "id": "7a3e0d3c-6c7b-4a6b-7a2d-0b3e6a5b6c7d",
-  "name": "Customer Listing",
+  "id": "7a2e0d3c-6c7b-4a6b-7a2d-0b3e6a5b6c7d",
+  "name": "TestCodeunit",
   "publisher": "Lopez Nicolas",
   "version": "1.0.0.1",
   "brief": "",
@@ -17,7 +17,7 @@
   "idRanges": [
     {
       "from": 50024,
-      "to": 50034
+      "to": 50036
     }
   ],
   "resourceExposurePolicy": {
@@ -29,4 +29,5 @@
   "features": [
     "NoImplicitWith"
   ]
+
 }

@@ -8,9 +8,12 @@ permissionset 50035 "CUSTOM_REWARDS_PERM"
         TableData "Reward Level Table" = RIMD,
         TableData "CustomerRewardsMgtSetup" = RIMD,
         TableData "Activation Code Information" = RIMD,
-        TableData Customer = RIMD,
         page "Rewards Level List" = X,
-        page "Customer Rewards Wizard" = X;
+        page "Customer Rewards Wizard" = X,
+        codeunit "Customer Rewards Ext Mgt" = X,
+        codeunit "Guided Experience" = X,
+        codeunit "Release Sales Document" = X;
+
 
 
 }

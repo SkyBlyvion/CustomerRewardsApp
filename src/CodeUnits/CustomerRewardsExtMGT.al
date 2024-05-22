@@ -133,7 +133,7 @@ codeunit 50031 "Customer Rewards Ext Mgt"
     // Checks if the current codeunit is allowed to handle Customer Rewards Activation requests rather than a mock. 
     local procedure CanHandle(): Boolean;
     var
-        CustomerRewardsMgtSetup: Record "Customer Rewards Mgt. Setup";
+        CustomerRewardsMgtSetup: Record "CustomerRewardsMgtSetup";
     begin
         if CustomerRewardsMgtSetup.Get() then
             exit(CustomerRewardsMgtSetup."Cust. Rew. Ext. Mgt. Cod. ID" = CODEUNIT::"Customer Rewards Ext Mgt");
